@@ -2,6 +2,9 @@ import Layout from "../layout/layout";
 import SignUp from "../auth/SignUp";
 import Login from "../auth/Login";
 import Counter from "../components/Counter";
+import PopularMovies from "../components/PopularMovies"
+import UpcomingMovies from "../components/UpcomingMovies";
+import NowPlaying from "../components/NowPlaying";
 
 
 const ROUTES = [
@@ -26,10 +29,21 @@ const ROUTES = [
     },
 
     {
-        path :"/movie/",
+        path :"/movie",
         element:  <Layout/>,
-        Children: [
-
+        children: [
+            {
+                path:"/movie/popular",
+                element: <PopularMovies/>
+            },
+            {
+                path:"/movie/upcoming",
+                element: <UpcomingMovies/>
+            },
+            {
+                path:"/movie/now_playing",
+                element: <NowPlaying/>
+            }
         ]
     
     }
