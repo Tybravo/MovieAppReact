@@ -8,13 +8,14 @@ import Sidebar from "../components/SideBar";
 const Layout = () => {
     return(
         <>
-        <Header/>
-        <div className={style.outLetContainer}>
-            <Sidebar/>
-            <Outlet/>
+        <div className={style.mainBackground}>
+            <Header/>
+            <div className={style.outLetContainer}>
+                <Sidebar/>
+                <Outlet/>
+            </div>
+            <Footer/>
         </div>
-        <Footer/>
-        
         </>
     )
 }

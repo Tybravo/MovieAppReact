@@ -2,8 +2,52 @@
     display: flex;
     flex-direction: column;
     width: 20%;
+    color: rgb(90, 21, 34);
+}
+
+/* .sideBarContainer button{
+    border:3px solid #ffaa22;
+    width: 150px;
+}
+
+button :hover{
+   box-shadow: 0px 10px 14px #ffaa22;
+} */
+
+.sideBarContainer button {
+    /* border: 3px solid #ffaa22; */
+    width: 150px;
+    transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
+}
+
+.sideBarContainer button :hover {
+    border: 3px solid #ffaa22;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); Shadow effect on hover */
+}
+
+.btn{
+    height: 50px;
+    width: 70px;
 }
 
 .sideBarContainer button{
-    width: 200px;
+    height: 50px;
+    margin:20px;
+}
+
+.btnside{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(22, 139, 222);
+}
+
+.btnside .button {
+    /* border: 3px solid #ffaa22; */
+    width: 150px;
+    transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
+}
+
+.btnside .button :hover {
+    /* border: 3px solid #ffaa22; */
+    box-shadow: 0 0 10px #ffaa22; /* Shadow effect on hover */
 }

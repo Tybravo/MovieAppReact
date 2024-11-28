@@ -1,3 +1,7 @@
 .outLetContainer{
     display:flex
 }
+
+.mainBackground{
+    background-color: rgb(90, 21, 34);
+}

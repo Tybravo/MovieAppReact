@@ -17,7 +17,7 @@ const Card = (props) => {
             src={`${MOVIE_IMAGE_URL}${movie.poster_path}`}
             alt={`${movie.title}`}
             />
-            <div className={style.overview}>{movie.overview}</div>
+            <div className={style.title}>{movie.title}</div>
         </div>
       ))
         }
