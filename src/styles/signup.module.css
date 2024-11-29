@@ -1,9 +1,93 @@
-.input{
-    width:200px;
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+
+.signupBackground {
+  background-image: url('../images/Film_Background01.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.btn{
-    width: 100px;
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+ .center_box {
+    width: 470px;
+    height: 310px;
+    padding-bottom:40px;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #2995E2;
+  }
+  
+  .signup_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 50vh; */
+    margin: 0;
+  }
+  
+  .signuptitle{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #0050c7;
+  }
+
+  input{
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:4px;
+    padding:4px 14px;
+    border:2px solid #2995E2;
+    box-shadow: 0px 10px 14px -7px #2995E2;
+    -moz-box-shadow: 0px 10px 14px -7px #2995E2;
+    -webkit-box-shadow: 0px 10px 14px -7px #2995E2;
+    margin-top: 10px;
+    min-width: 358px;
     height: 30px;
-    background-color: rgb(22, 139, 222);
-}
+  }
+  
+  input[type=text]:focus, input[type=password]:focus,textarea:focus,select:focus{
+    border:3px solid #ffaa22;
+    -moz-box-shadow: 0px 10px 14px -7px #ffaa22;
+    -webkit-box-shadow: 0px 10px 14px -7px #ffaa22;
+    box-shadow: 0px 10px 14px -7px #ffaa22;
+    -webkit-animation: myfirst 5s linear 2s infinite alternate; /* Chrome, Safari, Opera */
+    animation: myfirst 5s linear 2s infinite alternate; /* Standard syntax */
+    }
+
+    .btn{
+        width: 120px;
+        height: 35px;
+        margin: 20px;
+        color: #ffffff;
+        border: none;
+        background-color: rgb(22, 139, 222);
+    }
+
+    .own_account span{
+        margin-top: -40px;
+        font-size: 16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .nonedeco{
+      text-decoration: none;
+    }
