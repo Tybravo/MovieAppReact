@@ -46,7 +46,7 @@ return (
                           name="username"
                           placeholder=" Enter Username"
                           className={style.input}
-                          onchange = {handleChange}
+                          onChange = {handleChange}
                           required
                       />
                       </div>
